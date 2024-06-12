@@ -29,7 +29,7 @@ In order to be able to run the model with new data a pandas dataframe containing
 
 ## Training results
 
-After training the aforementioned model, we evaluated it using different strategies. The first one was the classical train/test approach, where 30% of the data was reserved for testing purposes. However, due to the limited amount of data, we repeated this process 1000 times to ensure that the results were not influenced by chance. Furthermore, we employed bootstrap .632+ as an internal validation technique. To ensure the robustness of the model, we also conducted train/test procedures while systematically removing each cohort from the merged dataframe, thereby verifying that the results were not influenced by any particular cohort among the five. Additionally, undersampling was performed to ensure that the model predicts both classes equally well.
+After training, we evaluated it using different strategies. The first one was the classical train/test approach, where 30% of the data was reserved for testing purposes. However, due to the limited amount of data, we repeated this process 1000 times to ensure that the results were not influenced by chance. Furthermore, we employed bootstrap .632+ as an internal validation technique.
 
 **RF-RW**
 | Evaluation Type | AUC Score |
