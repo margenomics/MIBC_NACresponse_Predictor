@@ -4,7 +4,7 @@ This repository contains the executable for the trained random forest machine le
 
 ## Usage
 
-Random fores trained models (RF-RW, RF-R and RF-WNT) are available in this repository in .joblib format. They can be utilized to predict response to cisplatin-based neoadjuvant chemotherapy (NAC) for muscle-invasive bladder cancer (MIBC) patients. The model were trained using formalin-fixed paraffin-embedded (FFPE) pre-treatment samples obtained after transurethral removal of bladder tumor (TURB) from our cohort of MIBC patients. RF-RW model was trained using RNA-Seq and WES data, while RF-R and RF-WNT was trained using only RNA-Seq data. 
+Random forest trained models (RF-RW, RF-R and RF-WNT) are available in this repository in .joblib format. They can be utilized to predict response to cisplatin-based neoadjuvant chemotherapy (NAC) for muscle-invasive bladder cancer (MIBC) patients. The model were trained using formalin-fixed paraffin-embedded (FFPE) pre-treatment samples obtained after transurethral removal of bladder tumor (TURB) from our cohort of MIBC patients. RF-RW model was trained using RNA-Seq and WES data, while RF-R and RF-WNT was trained using only RNA-Seq data. 
 
 **RF-RW**:
 - WNT score
