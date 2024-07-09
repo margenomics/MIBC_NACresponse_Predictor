@@ -1,6 +1,6 @@
 # MIBC NAC Response Predictor
 
-This repository contains the executable for the trained random forest machine learning models (RF-RW, RF-R and RF-WNT) presented in "Predicting response to cisplatin-based neoadjuvant chemotherapy for muscle-invasive bladder cancer: transcriptomic features outrank genomic biomarkers" by Acedo-Terrades et al. ([unpublished](https://www.medrxiv.org/content/10.1101/2024.06.28.24309634v1)). The ML models were created using the ML pipeline found in the following repository: https://github.com/EvolutionaryGenomics-GRIB/ML_Pipeline.
+This repository contains the executable for the trained random forest machine learning models (RF-RW, RF-R and RF-WNT) presented in "Predicting response to cisplatin-based neoadjuvant chemotherapy for muscle-invasive bladder cancer: transcriptomic features outrank genomic biomarkers" by Acedo-Terrades et al. ([MedRxiv](https://www.medrxiv.org/content/10.1101/2024.06.28.24309634v1)). The ML models were created using the ML pipeline found in the following repository: https://github.com/EvolutionaryGenomics-GRIB/ML_Pipeline.
 
 ## Usage
 
